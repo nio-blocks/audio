@@ -1,0 +1,11 @@
+{
+  "nio/PlayAudioFile": {
+    "description": "Play a WAV audio file located on disk",
+    "categories": [
+      "Notifications"
+    ],
+    "tags": "audio wav play",
+    "from_readme": "docs/play_audio_file.md",
+    "from_python": "play_audio_file_block/PlayAudioFile"
+  }
+}
