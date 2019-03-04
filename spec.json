@@ -6,6 +6,6 @@
     ],
     "tags": "audio wav play",
     "from_readme": "docs/play_audio_file.md",
-    "from_python": "play_audio_file_block/PlayAudioFile"
+    "from_python": "play_audio_file_block.PlayAudioFile"
   }
 }
