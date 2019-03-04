@@ -28,3 +28,7 @@ class PlayAudioFile(LimitLock, Block):
         self.logger.info("Playing simpleaudio obj {}".format(audio_obj))
         play = audio_obj.play()
         play.wait_done()
+
+    def stop(self):
+        simpleaudio.stop_all()
+        super().stop()
