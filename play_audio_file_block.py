@@ -1,12 +1,13 @@
 from os.path import isfile
 from nio import Block
 from nio.block.mixins import LimitLock
-from nio.properties import FileProperty, IntProperty
+from nio.properties import FileProperty, IntProperty, VersionProperty
 import simpleaudio
 
 
 class PlayAudioFile(LimitLock, Block):
 
+    version = VersionProperty('0.1.0')
     audio_file = FileProperty(title='Audio File Location', default='audio.wav')
     max_locks = IntProperty(title='Audio Queue Size', default=5, advanced=True)
 
