@@ -1,0 +1,7 @@
+{
+  "nio/PlayAudioFile": {
+    "language": "Python",
+    "from_python": "play_audio_file_block.PlayAudioFile",
+    "url": "git://github.com/nio-blocks/audio.git"
+  }
+}
