@@ -9,3 +9,7 @@ Blocks that deal with audio files
 ## Requirements
 
  * **simpleaudio** - For playing WAV format audio
+
+## Installation
+
+  Ubuntu/Debian/Raspbian: `sudo apt-get install -y python3-dev libasound2-dev`
